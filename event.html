@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>College Cultural Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .event-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .event-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+
+        .event-date {
+            width: 80px;
+            height: 80px;
+            background-color: #00b300;
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            position: relative;
+            background-image: radial-gradient(circle, #008000 10%, transparent 10%), radial-gradient(circle, #008000 10%, transparent 10%);
+            background-size: 20px 20px;
+        }
+
+        .event-date-inner {
+            width: 70px;
+            height: 70px;
+            background-color: #00cc00;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .event-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .event-description {
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            color: #ff6600;
+        }
+
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fade-in-effect {
+            animation: fade-in 1s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="event-container">
+        <div class="event-box fade-in-effect">
+            <div class="event-date">
+                <div class="event-date-inner">14<br>May</div>
+            </div>
+            <h2 class="event-name">Cultural Fest 2023</h2>
+            <p class="event-description">
+                The <span class="highlight">Cultural Fest 2023</span> is an annual celebration of art, music, dance, and
+                creativity. It brings together talented performers from various disciplines to showcase their skills and
+                entertain the audience. Join us for a captivating experience filled with vibrant performances,
+                interactive
+                workshops, and exciting competitions. Let's celebrate the rich cultural diversity and talent in our
+                college community.
+            </p>
+        </div>
+
+        <div class="event-box fade-in-effect">
+            <div class="event-date">
+                <div class="event-date-inner">25<br>June</div>
+            </div>
+            <h2 class="event-name">Music Night</h2< /h2>
+                <p class="event-description">
+                    Get ready for a mesmerizing evening of soulful melodies and foot-tapping beats at our <span
+                        class="highlight">Music Night</span>.
+                    Immerse yourself in the enchanting world of music as talented artists from our college and guest
+                    performers
+                    take the stage. Whether you're a fan of classical tunes, rock anthems, or the latest chart-toppers,
+                    this
+                    event promises to captivate your senses and leave you craving for more. Don't miss out on this
+                    unforgettable
+                    musical extravaganza!
+                </p>
+        </div>
+    </div>
+</body>
+
+</html>
